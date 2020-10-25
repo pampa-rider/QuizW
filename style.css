@@ -1,0 +1,74 @@
+
+/*
+    QuizW
+    Made by Emmanuel.D.Breyaue (Pampa_Rider)
+    Github: http://github.com/pampa-rider
+    Twitter: http://twitter.com/pampa_rider
+*/
+
+
+
+ body
+ {
+ margin:0;
+ padding:0;
+ font-family:Roboto;
+ }   
+ 
+ #header
+ {
+ width:100%;
+ text-align:center;    
+ margin:auto;
+ background:#333333;
+ }
+ 
+ #block
+ {
+ margin-top:10%;
+ text-align:center;    
+ }
+ 
+ .logo
+ {
+ padding-top:1%;    
+ padding-bottom:1%;    
+ color:#FFFFFF;
+ font-size:30px;
+ }
+ 
+ #incognita
+ {
+ font-size:48px;
+ }
+ 
+ #respuesta
+ {
+ font-size:18px;
+ color:#336699;
+ }
+ 
+ #opcion-1 , #opcion-2 , #opcion-3 ,#opcion-4, #next
+ {
+ background-color: #4CAF50;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+ }
+ #footer
+ {
+ margin-top:20%;
+ text-align:center;    
+ font-size:9px;
+ }
+ 
+ #block_next
+ {
+ margin-top:10%;
+ }
