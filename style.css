@@ -36,13 +36,13 @@
  
 #logo img
 {
-width:160;
-height:120;
+width:160px;
+height:120px;
 }
 
  #score
  {
-background:#333333; 
+ background:#333333; 
  padding-top:1%;    
  padding-bottom:1%;    
  color:#FFFFFF;
