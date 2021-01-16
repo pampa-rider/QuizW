@@ -27,18 +27,6 @@
  margin-top:10%;
  text-align:center;    
  }
- 
- #logo
- {
- padding-top:1%;    
- padding-bottom:1%;    
- }
- 
-.logo_imagen
-{
-width:160px;
-height:120px;
-}
 
  #score
  {
@@ -46,7 +34,7 @@ height:120px;
  padding-top:1%;    
  padding-bottom:1%;    
  color:#FFFFFF;
- font-size:30px;
+ font-size:48px;
  }
  
  #incognita
