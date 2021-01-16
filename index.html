@@ -9,10 +9,11 @@
 </style>
 
 </head>
-<body onload="imprimir_pantalla()">
+<body onload="load()">
 
 <div id="header">
-<div class="logo">QuizW</div>
+<div id="logo"><img src="logo.png"></div>
+<div id="score">Score: 0</div>
 </div>
 
 
@@ -20,7 +21,7 @@
 <div id="palabras"></div>
 <div id="incognita"></div>
 
-
+	
 
 <div id="options">
 <input type="button" id="opcion-1" onclick="validar_respuesta(1)">   
@@ -30,11 +31,8 @@
 </div>
 
 <div id="respuesta"></div>
+<div id="block_next"><input type="button" id="play_again" value="Volver a Jugar" onclick="restart()"></div>
 
-
-
-
-<div id="block_next"><input type="button" id="next"  value="Siguiente" onclick="reload()"></div>
 <div id="footer">&copy; 2020 Pampa-Rider</br>
 <a href="https://github.com/Pampa-Rider">https://github.com/Pampa-Rider</a></div>
 
