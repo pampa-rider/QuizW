@@ -1,42 +1,47 @@
 <html>
 <head>
-<script src="Quizw.js" type="text/javascript"></script>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
-<style>
+<script src="js/Quizw.js" type="text/javascript"></script>
+<script src="js/Quizw_words.js" type="text/javascript"></script>
 
-
-</style>
+<link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://getbootstrap.com/docs/4.1/examples/sticky-footer/sticky-footer.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 
 </head>
-<body onload="load()">
+ <body onload="load()">
 
-<div id="header">
-<div id="score">Score: 0</div>
+<div class="container">
+  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <a class="navbar-brand" href="http://github.com/pampa-rider/QuizW">Quizw</a>
+  </nav>
 </div>
 
 
-<div id="block">
-<div id="palabras"></div>
-<div id="incognita"></div>
+ 	<div class="container">
 
-	
+ 	<main role="main" class="container">
+  <h1 class="mt-5"><div id="score">Score:0</div></h1>
 
-<div id="options">
-<input type="button" id="opcion-1" onclick="validar_respuesta(1)">   
-<input type="button" id="opcion-2" onclick="validar_respuesta(2)"> 
-<input type="button" id="opcion-3" onclick="validar_respuesta(3)"> 
-<input type="button" id="opcion-4" onclick="validar_respuesta(4)"> 
+  <h2 class="mt-5"><div id="timer"></div></h2>
+
+
+      <h1 class="display-1"><div id="word"></div></h1>
+
+      <input type="button" class="btn btn-success btn-block" id="reload" onclick="restart()" value="Volver a Jugar">
+      <input type="button" class="btn btn-primary btn-block" id="btn-1" onclick="validar_respuesta(1)">
+      <input type="button" class="btn btn-primary btn-block" id="btn-2" onclick="validar_respuesta(2)">
+      <input type="button" class="btn btn-primary btn-block" id="btn-3" onclick="validar_respuesta(3)">
+      <input type="button" class="btn btn-primary btn-block" id="btn-4" onclick="validar_respuesta(4)">
+            
+</main>
 </div>
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">2021 💻 Programed With ❤️ By <a href="https://github.com/pampa-rider">PampaRider</a>
+        </span>
+      </div>
+    </footer>
+  </body>
 
-<div id="respuesta"></div>
-<div id="block_next"><input type="button" id="play_again" value="Volver a Jugar" onclick="restart()"></div>
 
-<div id="footer">&copy; 2020 Pampa-Rider</br>
-<a href="https://github.com/Pampa-Rider">https://github.com/Pampa-Rider</a></div>
-
-</body>
 </html>
-
-
-
