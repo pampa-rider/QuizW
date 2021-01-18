@@ -5,4 +5,5 @@ Resuelve la mayor cantidad de palabras relacionadas a computación en menos de 6
 Resolve the most cant of word relationated to computers in less of 60 seconds without errors, each correct word add 50 points
 
 Developed with Bootstrapt, CSS and HTML5
-<img src="img/2021-01-18.png">
+
+<img src="images/2021-01-18.png">
