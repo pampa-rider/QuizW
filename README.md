@@ -6,4 +6,4 @@ Resolve the most cant of word relationated to computers in less of 60 seconds wi
 
 Developed with Bootstrapt, CSS and HTML5
 
-<img src="images/2021-01-18.png">
+<img src="2021-01-18.png">
