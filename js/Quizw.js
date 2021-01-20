@@ -18,7 +18,7 @@ var gl_letra_val;
 
 var seconds=60;
 var countdownTimer = setInterval('clock_down()',1000);
-
+var category=2;
 
 
 function clock_down()
@@ -47,6 +47,7 @@ function game_over()
 {
 deshabilitar_botones();
 document.getElementById('reload').style.display="inline";
+seconds=0;
 document.getElementById('word').innerHTML="GAME OVER";
 }
 
@@ -55,7 +56,7 @@ document.getElementById('word').innerHTML="GAME OVER";
 function load()
 {
 document.getElementById('timer').innerHTML="0:00";
-quiz_word_computer(); //from quiz_words.js
+quiz_word(category); //from quiz_words.js
 gl_palabra=Ran_dom(palabras.length);
 gl_palabras_tam=palabras[gl_palabra].length;
 gl_letra_val=Ran_dom(gl_palabras_tam);

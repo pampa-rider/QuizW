@@ -1,4 +1,8 @@
-function quiz_word_computer(){
+function quiz_word(category){
+
+switch(category){
+
+case 1:
 palabras = new Array(
 "algorithm",
 "analog",
@@ -233,4 +237,91 @@ palabras = new Array(
 "WWW",
 "XML",
 "zip",);
+break;
+
+
+case 2:
+palabras = new Array(
+"Homero J. Simpson",
+"Marge Simpson",
+"Bart Simpson",
+"Lisa Simpson",
+"Maggie Simpson",
+"Abraham Simpson",
+"Charles Montgomery Burns",
+"Waylon Smithers",
+"Seymour Skinner",
+"Apu Nahasapee-mapetilon",
+"Otto Mann",
+"Maude Flanders",
+"Ned Flanders",
+"Todd Flanders",
+"Rod Flanders",
+"Lenford Lenny Leonard",
+"Carl Carlson",
+"Barney Gómez",
+"Moe Szyslak",
+"Patty Bouvier",
+"Selma Bouvier",
+"Krusty el Payaso",
+"Tommy",
+"Dally",
+"Clancy Gorgory",
+"Willy",
+"Edna Krabappel",
+"Jeff Albertson",
+"Nelson Muntz",
+"Martin Prince",
+"Rafa Gorgory",
+"Milhouse Mussolini Van Houten",
+"Herbert Powell",
+"Jacqueline Bouvier",
+"Ayudante de Santa Claus",
+"Bola de Nieve II",
+"Mindy Simmons",
+"Mel Patiño",
+"Kent Brockman",
+"Rainier Wolfcastle",
+"Hombre Abejorro",
+"Roger Meyers",
+"Roger Meyers Jr.",
+"Troy McClure",
+"Arthur Grandall",
+"Gabbo",
+"Julius Hibbert",
+"Timothy Alegría",
+"Helen Alegría",
+"Hyman Krustofski",
+"[Cletus Suckler]",
+"Cletus Suckler",
+"Agnes Skinner",
+"Gaspar Beardley",
+"Horatio McCallister",
+"Doris Grau",
+"Sherri",
+"Terri",
+"Jimbo Jones",
+"Kearney",
+"Dolph",
+"Jessica Alegría",
+"Alcalde Diamante",
+"Lou",
+"Eddie",
+"Roy Snyder",
+"Lionel Hutz",
+"Marvin Monroe",
+"Nick Riviera",
+"Snake",
+"Tony el gordo",
+"[Bob Patiño]",
+"Bob Patiño",
+"Cecil Underdunk Terwilliger",
+"Jeremías Springfield",
+"Encías sangrientas Murphy",
+"John Frink",
+);
+
+break;
+}
+
 }
