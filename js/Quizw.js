@@ -18,7 +18,7 @@ var gl_letra_val;
 
 var seconds=60;
 var countdownTimer = setInterval('clock_down()',1000);
-var category=2;
+var category=1;
 
 
 function clock_down()
